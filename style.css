@@ -97,3 +97,24 @@ header{
     background-image: url('assets/icons/mdi_keyboard_arrow_down.svg');
     background-position: center;
 }
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main__section--exchange{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.section__title--exchange{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
