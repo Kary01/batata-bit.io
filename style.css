@@ -15,6 +15,9 @@
     --grey: #BABABA;
     --off-white: #FAF8F7;
     --just-white: #FFFFFF;
+    /*Fonts*/
+    --primary-font: 'DM Sans', sans-serif;
+    --secondary-font: 'Inter', sans-serif;
 }
 
 *{
@@ -25,7 +28,7 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'DM Sans', sans-serif;;
+    font-family: var(--primary-font);
 }
 
 header{
@@ -144,4 +147,55 @@ main{
     font-weight: 500;
     line-height: 1.8rem;
     color: #757575;
+}
+
+.section__table--exchange{
+    width: 90%;
+    min-width: 320px;
+    max-width: 800px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.section__table--contain{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    margin: 0 auto;
+    height: 194px;
+    font-family: var(--secondary-font);
+}
+
+.section__table--contain .coins--title{
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    font-family: var(--primary-font);
+    color: var(--bitcoin-orange);
+}
+
+.section__table--contain .commission--title{
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    font-family: var(--primary-font);
+    color: var(--secondary-blue);
+}
+
+.table__body table{
+    width: 100%;
+    height: 100%;
+}
+
+.table__body td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
 }
