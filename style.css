@@ -101,6 +101,14 @@ header{
     background-position: center;
 }
 
+.header__title--container .header__button{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+
 main{
     width: 100%;
     height: auto;
@@ -142,31 +150,31 @@ main{
 }
 
 .section__title--exchange p{
-    margin-bottom: 24px;
+    margin-bottom: 50px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
     color: #757575;
 }
 
-.section__table--exchange{
-    width: 90%;
-    min-width: 320px;
-    max-width: 800px;
-    height: 250px;
-    margin: 0 auto;
-}
-
-.section__table--contain{
+.section__table--currency{
     width: 70%;
     min-width: 235px;
     max-width: 500px;
     margin: 0 auto;
-    height: 194px;
+    height: 360px;
     font-family: var(--secondary-font);
 }
 
-.section__table--contain .coins--title{
+.table__currency{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.section__table--currency .coins--title{
     margin-bottom: 12px;
     text-align: left;
     font-size: 1.8rem;
@@ -176,7 +184,7 @@ main{
     color: var(--bitcoin-orange);
 }
 
-.section__table--contain .commission--title{
+.section__table--currency .commission--title{
     margin-bottom: 12px;
     text-align: left;
     font-size: 1.8rem;
@@ -186,12 +194,12 @@ main{
     color: var(--secondary-blue);
 }
 
-.table__body table{
+.table__currency table{
     width: 100%;
     height: 100%;
 }
 
-.table__body td{
+.table__currency td{
     width: 50%;
     font-size: 1.6rem;
     font-weight: 500;
