@@ -326,6 +326,7 @@ main{
 }
 .card--detail{
     width: 100%;
+    min-height: 150px;
     margin-bottom: 1.5em;
     padding: 1.5em;
     background-color: var(--black);
@@ -372,4 +373,23 @@ main{
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+
+.main__section--imagen{
+    width: 100%;
+    min-width: 320px;
+    height: 60vh;
+    background-image: url('./assets/images/bitcoinbaby2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__section--imagen h2{
+    padding-top: 3em;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
 }
