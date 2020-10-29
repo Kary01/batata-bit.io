@@ -394,3 +394,32 @@ main{
     color: var(--just-white);
     text-align: center;
 }
+
+.main__section--plans{
+    width: 100%;
+    min-width: 320px;
+    text-align: center;
+}
+
+.section--title-plans{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 7em;
+}
+
+.section--title-plans h2{
+    margin-bottom: 1em;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+
+.section--title-plans p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #757575;
+}
