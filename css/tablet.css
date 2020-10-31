@@ -1,0 +1,15 @@
+.section__table--container{
+    display: flex;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.card--container{
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 900px;
+}
+
+.section--card-slide{
+    overflow-x: hidden;
+}

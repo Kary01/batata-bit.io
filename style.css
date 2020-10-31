@@ -322,13 +322,13 @@ main{
 .card--container{
     width: 90%;
     min-width: 288px;
-    max-width: 400px;
     margin: 3em auto;
 }
 .card--detail{
-    width: 100%;
+    min-width: 288px;
+    max-width: 400px;
     min-height: 150px;
-    margin-bottom: 1.5em;
+    margin: 1.5em auto;
     padding: 1.5em;
     background-color: var(--black);
     border-radius: 5px;
@@ -505,6 +505,10 @@ main{
     background-image: url('./assets/icons/arrow-right.svg');
 }
 
+.card--plans-type .basic{
+    border: 2px solid var(--soft-orange);
+}
+
 .section--card-slide{
     display: flex;
     margin: 0 1.5em;
@@ -543,4 +547,11 @@ footer{
 .footer__section-list a{
     color: var(--just-white);
     text-decoration: none;
+}
+
+.footer__section p{
+   margin-left: 1em;
+   font-size: 1.1rem;
+   line-height: 1.8rem;
+   color: var(--soft-orange);
 }
